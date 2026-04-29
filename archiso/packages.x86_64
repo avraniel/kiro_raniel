@@ -1,3 +1,7 @@
+syslinux
+# --- Bootloader (REQUIRED) ---
+syslinux
+
 # --- Wayland base ---
 wayland
 wayland-protocols
