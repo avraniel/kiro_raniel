@@ -1,15 +1,12 @@
-// --- Niri minimal config + DMS launch ---
 input {
     keyboard {
         xkb_layout "us"
     }
 }
-
 spawn-at-startup "waybar"
 spawn-at-startup "nm-applet"
 spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
 spawn-at-startup "dms"
-
 binds {
     Mod+Return { spawn "kitty"; }
     Mod+Q { close-window; }

@@ -1,6 +1,5 @@
 #!/bin/bash
 set -e
-
 echo "==> Building DankMaterialShell from source..."
 git clone https://github.com/avengemedia/dms.git /tmp/dms
 cd /tmp/dms
