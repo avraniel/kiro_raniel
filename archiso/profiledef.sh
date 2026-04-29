@@ -27,3 +27,8 @@ file_permissions=(
   ["/etc/sudoers.d"]="0:0:750"
   ["/etc/grub.d/40_custom"]="0:0:755"
 )
+
+customize_airootfs() {
+    echo "==> Running DMS and custom setup..."
+    bash /root/customize_install.sh
+}

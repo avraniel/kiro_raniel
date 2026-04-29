@@ -1,0 +1,6 @@
+(
+    gaps: 6,
+    border_width: 2,
+    focus_follows_mouse: true,
+    default_layout: "dwindle",
+)
